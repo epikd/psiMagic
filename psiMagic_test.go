@@ -323,7 +323,7 @@ func BenchmarkM_P384_Encrypt(b *testing.B) {
 }
 
 func BenchmarkM_P521_Encrypt(b *testing.B) {
-	benchEncrypt(b, group.P384)
+	benchEncrypt(b, group.P521)
 }
 
 func BenchmarkM_Rist_ReEncrypt(b *testing.B) {

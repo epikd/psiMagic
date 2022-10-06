@@ -3,17 +3,17 @@ goos: linux
 goarch: amd64
 pkg: github.com/epikd/psiMagic
 cpu: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
-BenchmarkM_Rist_Encrypt-8     	      14	  78443469 ns/op
-BenchmarkM_P256_Encrypt-8     	       7	 161821997 ns/op
-BenchmarkM_P384_Encrypt-8     	       2	 546928728 ns/op
-BenchmarkM_P521_Encrypt-8     	       2	 548812052 ns/op
-BenchmarkM_Rist_ReEncrypt-8   	      14	  76818662 ns/op
-BenchmarkM_P256_ReEncrypt-8   	      18	  70689863 ns/op
-BenchmarkM_P384_ReEncrypt-8   	       3	 450152728 ns/op
-BenchmarkM_P521_ReEncrypt-8   	       1	3826711097 ns/op
-BenchmarkM_Rist_Decrypt-8     	      15	  78051944 ns/op
-BenchmarkM_P256_Decrypt-8     	      15	  68407983 ns/op
-BenchmarkM_P384_Decrypt-8     	       2	 501364976 ns/op
-BenchmarkM_P521_Decrypt-8     	       1	3633776009 ns/op
+BenchmarkM_Rist_Encrypt-8     	      13	  78647649 ns/op
+BenchmarkM_P256_Encrypt-8     	       7	 154571852 ns/op
+BenchmarkM_P384_Encrypt-8     	       2	 535351679 ns/op
+BenchmarkM_P521_Encrypt-8     	       1	3704614740 ns/op
+BenchmarkM_Rist_ReEncrypt-8   	      15	  74833052 ns/op
+BenchmarkM_P256_ReEncrypt-8   	      18	  67149521 ns/op
+BenchmarkM_P384_ReEncrypt-8   	       3	 442380720 ns/op
+BenchmarkM_P521_ReEncrypt-8   	       1	3493822907 ns/op
+BenchmarkM_Rist_Decrypt-8     	      15	  77347115 ns/op
+BenchmarkM_P256_Decrypt-8     	      16	  67315583 ns/op
+BenchmarkM_P384_Decrypt-8     	       3	 447219003 ns/op
+BenchmarkM_P521_Decrypt-8     	       1	3601513924 ns/op
 PASS
-ok  	github.com/epikd/psiMagic	34.885s
+ok  	github.com/epikd/psiMagic	36.793s
